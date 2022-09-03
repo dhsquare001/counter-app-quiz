@@ -1,11 +1,54 @@
+body
+{
+    background-color: tomato;
+}
+
 .main
 {
-    background-color:aquamarine;
+    background-color: darksalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .container
 {
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    color:teal;
+    font-size: 40px;
+}
+
+.counter-card
+{
+    background-color: slateblue;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+
+}
+
+.btn-container
+{
+    padding: 30px;
+}
+
+button
+{
+    padding: 12px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: grey;
+}
+
+button:hover
+{
+    background-color: black;
+    color: crimson;
+    transition: all 0.4s ease;
 }
